@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega House</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-color: #F7F1EB;
+        }
+
+
+        .hero {
+            padding-bottom: 31px;
+        }
+
+        .hero__container {
+            max-width: 390px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        .hero__top {
+            background-color: #0A4975;
+            border-radius: 0 0 10px 10px;
+            padding: 0 5px 4px 5px;
+        }
+        
+        .hero__top-min {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 0.5px solid #FFFFFF;
+            border-radius: 10px;
+        }
+
+        .hero__title {}
+
+        .hero__content {}
+
+        .hero__nav {}
+
+        .hero__item {}
+
+        .hero__box {}
+
+        .tiemr {}
+
+        .hero__btn {}
+
+        .hero__info {}
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__top">
+                <div class="hero__top-min">
+                    <p>16-Mart | 19:30</p>
+
+                    <img src="./images/logo.avif" loading="lazy" decoding="async" width="103" height="31" alt="logo">
+                </div>
+            </div>
+
+
+            <h1 class="hero__title">To'liq ta'mirlangan <br> xonadonlar Samarqandda <br>
+                <span>Endi boshlang'ich to'lov yo'q</span>
+            </h1>
+
+            <div class="hero__content">
+                <ul class="hero__nav">
+                    <li class="hero__item">
+                        <img src="./images/verfiy.png" loading="lazy" decoding="async" width="9" height="9"
+                            alt="verfiy">
+                        <p><b>Maktab</b> va <b>Bog’cha</b></p>
+                    </li>
+                    <li class="hero__item">
+                        <img src="./images/verfiy.png" loading="lazy" decoding="async" width="9" height="9"
+                            alt="verfiy">
+                        <p>2-qavatdagi <br> <b>sayr qilish bog’i</b></p>
+                    </li>
+                    <li class="hero__item">
+                        <img src="./images/verfiy.png" loading="lazy" decoding="async" width="9" height="9"
+                            alt="verfiy">
+                        <p>10-qavatdagi <br> <b>infinity basseyn</b></p>
+                    </li>
+                    <li class="hero__item">
+                        <img src="./images/verfiy.png" loading="lazy" decoding="async" width="9" height="9"
+                            alt="verfiy">
+                        <p>Erkaklar va ayollar <br> <b>fitnes va trenejor zali</b></p>
+                    </li>
+                </ul>
+
+                <div class="hero__box">
+                    <img src="./images/mainImg.avif" loading="lazy" decoding="async" width="319" height="234"
+                        alt="images">
+
+                    <div class="tiemr" id="timer">02 : 00</div>
+                </div>
+            </div>
+
+            <a class="hero__btn" href="#">
+                Bepul qatnashish
+            </a>
+
+
+            <div class="hero__info">
+                <p>Xonadonlar haqida batafsil ma’lumot <br> olish uchun vebinarda qatnashing</p>
+                <img src="./images/arrow.avif" loading="lazy" decoding="async" alt="arrow">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
