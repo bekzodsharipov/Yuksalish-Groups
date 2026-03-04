@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,7 @@
 
 <body>
 
+    <main>
     <section class="hero">
         <div class="hero__container">
             <div class="hero__top">
@@ -79,10 +80,29 @@
             </div>
         </div>
     </section>
+</main>
 
     <script defer>
      document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("timer");if(!t)return;const e=t.querySelector("[data-mm]"),n=t.querySelector("[data-ss]");if(!e||!n)return;let r=120;function o(){const t=String(Math.floor(r/60)).padStart(2,"0"),o=String(r%60).padStart(2,"0");e.textContent=t,n.textContent=o}o();const a=setInterval((()=>{if(r--,r<=0)return r=0,o(),void clearInterval(a);o()}),1e3)}));
     </script>
+
+    <!-- Meta Pixel Code -->
+<script defer>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2812460715761352');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2812460715761352&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </body>
 
 </html>
